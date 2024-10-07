@@ -17,3 +17,9 @@ It has changed the way we live.
 (This was all generated with Codeium)
 """
 
+# Summarize the text
+summary = summarizer(long_text, max_length=100, min_length=30, \
+    do_sample=False)
+
+# Print out the summary
+
