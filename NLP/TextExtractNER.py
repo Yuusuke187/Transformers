@@ -15,5 +15,6 @@ for entity in entities:
     print(f"Entity: {entity['word']}, \
         Label: {entity['entity']}")
 
+# This should be it for now.
 
     
