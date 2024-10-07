@@ -22,4 +22,5 @@ summary = summarizer(long_text, max_length=100, min_length=30, \
     do_sample=False)
 
 # Print out the summary
+print(summary[0]['summary_text'])
 
