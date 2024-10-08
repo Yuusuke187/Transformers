@@ -1,3 +1,7 @@
+# Try running this in an isolated environment
+# If you created an environment called my_env, then run
+# .\my_env\Scripts\activate.bat (in Windows)
+
 from transformers import pipeline
 
 ner_pipeline = pipeline("ner", \
