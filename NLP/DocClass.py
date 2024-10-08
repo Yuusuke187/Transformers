@@ -8,4 +8,12 @@ classifier = pipeline("text-classification", \
     model="distilbert-base-uncased-finetuned-sst-2-english", \
     device=0)
 
+document_text = """
+Raiden is a vertically scrolling shooting game (shmup) released by Seibu Kaihatsu in 1990.
+"""
 
+# Classify the text
+classification = classifier(document_text)
+
+# Print out the classification
+print(classification)
