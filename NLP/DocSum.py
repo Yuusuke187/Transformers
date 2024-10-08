@@ -4,6 +4,7 @@ from transformers import pipeline
 
 # Load a pre-trained summarization model from Facebook
 # Remove device=0 if you don't have a GPU
+# Or set it to -1 
 summarizer = pipeline("summarization", \
     model="facebook/bart-large-cnn",
     device=0)
