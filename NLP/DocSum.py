@@ -6,7 +6,7 @@ from transformers import pipeline
 # Remove device=0 if you don't have a GPU
 # Or set it to -1 
 summarizer = pipeline("summarization", \
-    model="facebook/bart-large-cnn",
+    model="facebook/bart-large-cnn", \
     device=0)
 
 # Create a long string to go in a document
