@@ -14,3 +14,6 @@ def list_stop_words():
     print("Returning the stopwords that only consist of one letter...")
     [sw for sw in stop_words if len(sw) == 1]
     
+def identify_lemmae():
+    nltk.download('wordnet')
+    
